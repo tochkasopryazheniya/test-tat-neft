@@ -1,0 +1,43 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+.filterBlock {
+  margin-left: 10%;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.select {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.inputFilter {
+  width: 20%;
+}
+
+.title {
+  margin-top: 40px;
+  font-weight: 300;
+}
+
+.searchBlock {
+  margin-left: 10%;
+  width: 50%;
+  margin-bottom: 20px;
+}

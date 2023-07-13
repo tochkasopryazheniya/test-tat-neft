@@ -1,0 +1,28 @@
+.button {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #068800;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color .2s linear;
+
+  &:hover {
+    background-color: darken(#068800, 5%);
+  }
+
+  &:disabled {
+    background-color: #454545;
+    color: #fff;
+    cursor: not-allowed;
+  }
+}
+
+.red {
+  background-color: #c80c0c;
+
+  &:hover {
+    background-color: darken(#c80c0c, 5%);
+  }
+}
