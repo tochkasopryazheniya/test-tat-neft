@@ -12,12 +12,11 @@ import {v4} from 'uuid';
 import {showError, showSuccess} from "../../utils/notifications";
 
 type AddArticleFormType = {
-    shown: boolean,
     onHide: () => void,
     data: ArticleType | null
 }
 
-const AddArticleForm = ({shown, onHide, data}: AddArticleFormType) => {
+const AddArticleForm = ({onHide, data}: AddArticleFormType) => {
     const title = useInput({initialValue: data ? data.title : ''});
     const subject = useInput({initialValue: data ? data.subject.name : ''});
     const date = useInput({initialValue: data ? data.date : ''});

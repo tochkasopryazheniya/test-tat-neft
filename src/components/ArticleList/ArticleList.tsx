@@ -105,7 +105,7 @@ const ArticleList = () => {
 
     return (
         <>
-            {isShownModal ? <AddArticleForm shown={isShownModal} onHide={onHideModal} data={modalData}/> : null}
+            {isShownModal ? <AddArticleForm onHide={onHideModal} data={modalData}/> : null}
             <div className={s.btn}>
                 <Button onClick={onAddNewArticle}>Добавить новую статью</Button>
             </div>
